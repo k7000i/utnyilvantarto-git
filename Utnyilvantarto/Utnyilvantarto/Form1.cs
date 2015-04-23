@@ -96,11 +96,11 @@ namespace Utnyilvantarto
 
         private void myButton2_Click(object sender, EventArgs e)
         {
-            string Api_key = "AIzaSyCtwjlLGw5uzq4Q9iuMeeHOBM37L6oErY4";
+            string Api_key = "";
             string origin = "46.184697,18.957354";
             string dest = "Budapest";
 
-            //https://maps.googleapis.com/maps/api/directions/json?origin=Baja&destination=Fels%C5%91szentiv%C3%A1n&key=AIzaSyCtwjlLGw5uzq4Q9iuMeeHOBM37L6oErY4 
+            //https://maps.googleapis.com/maps/api/directions/json?origin=Baja&destination=Fels%C5%91szentiv%C3%A1n&key= 
             WebClient c = new WebClient();
             var data = c.DownloadString(string.Format("https://maps.googleapis.com/maps/api/directions/json?origin={0}&destination={1}&key={2}",origin,dest,Api_key));
             //Console.WriteLine(data);
