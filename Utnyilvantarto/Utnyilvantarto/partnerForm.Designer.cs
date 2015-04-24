@@ -269,10 +269,10 @@
             // partnerekLabel
             // 
             this.partnerekLabel.AutoSize = true;
-            this.partnerekLabel.Font = new System.Drawing.Font("Walkway Oblique SemiBold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.partnerekLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.partnerekLabel.Location = new System.Drawing.Point(21, 15);
             this.partnerekLabel.Name = "partnerekLabel";
-            this.partnerekLabel.Size = new System.Drawing.Size(285, 37);
+            this.partnerekLabel.Size = new System.Drawing.Size(289, 39);
             this.partnerekLabel.TabIndex = 20;
             this.partnerekLabel.Text = "Partner adatbázis";
             // 
@@ -537,7 +537,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(712, 400);
+            this.tabPage2.Size = new System.Drawing.Size(712, 407);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Járművek";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -558,7 +558,7 @@
             this.uzemanyagtipDataGridViewTextBoxColumn});
             this.jarmuvekDataGridView.DataSource = this.jarmuvekBindingSource;
             this.jarmuvekDataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.jarmuvekDataGridView.Location = new System.Drawing.Point(3, 253);
+            this.jarmuvekDataGridView.Location = new System.Drawing.Point(3, 260);
             this.jarmuvekDataGridView.Name = "jarmuvekDataGridView";
             this.jarmuvekDataGridView.ReadOnly = true;
             this.jarmuvekDataGridView.RowHeadersWidth = 25;
@@ -719,10 +719,10 @@
             // kocsiLabel
             // 
             this.kocsiLabel.AutoSize = true;
-            this.kocsiLabel.Font = new System.Drawing.Font("Walkway Oblique SemiBold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kocsiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kocsiLabel.Location = new System.Drawing.Point(21, 15);
             this.kocsiLabel.Name = "kocsiLabel";
-            this.kocsiLabel.Size = new System.Drawing.Size(258, 37);
+            this.kocsiLabel.Size = new System.Drawing.Size(261, 39);
             this.kocsiLabel.TabIndex = 21;
             this.kocsiLabel.Text = "Kocsi adatbázis";
             // 
@@ -793,7 +793,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TabControl mainTabControl;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -844,5 +843,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tipusDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fogyasztasDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewComboBoxColumn uzemanyagtipDataGridViewTextBoxColumn;
+        public System.Windows.Forms.TabControl mainTabControl;
     }
 }

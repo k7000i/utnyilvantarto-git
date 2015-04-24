@@ -84,12 +84,8 @@ namespace Utnyilvantarto
 
         private void myButton1_Click(object sender, EventArgs e)
         {
-
             partnerForm pf = new partnerForm();
             pf.Show();
-            
-
-            
         }
 
 
@@ -108,8 +104,12 @@ namespace Utnyilvantarto
             Console.WriteLine(o["routes"][0]["legs"][0]["distance"]["value"]);
         }
 
-
-
+        private void myButton3_Click(object sender, EventArgs e)
+        {
+            partnerForm pf = new partnerForm();
+            pf.mainTabControl.SelectedIndex = 1;
+            pf.Show();
+        }
 
     }
 }

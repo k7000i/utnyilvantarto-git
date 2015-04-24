@@ -13,3 +13,6 @@ C:\Users\Lenovo Atesz\Documents\Visual Studio 2012\Projects_mains\Utnyilvantarto
 C:\Users\Lenovo Atesz\Documents\Visual Studio 2012\Projects_mains\Utnyilvantarto\Utnyilvantarto\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Lenovo Atesz\Documents\Visual Studio 2012\Projects_mains\Utnyilvantarto\Utnyilvantarto\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\Lenovo Atesz\Documents\Visual Studio 2012\Projects_mains\Utnyilvantarto\Utnyilvantarto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Documents\suli\szoftverf_2\_beadando\_utny-fromgit\utnyilvantarto-git\Utnyilvantarto\Utnyilvantarto\bin\Debug\Utnyilvantarto.exe.config
+C:\Users\user\Documents\suli\szoftverf_2\_beadando\_utny-fromgit\utnyilvantarto-git\Utnyilvantarto\Utnyilvantarto\obj\Debug\Utnyilvantarto.exe
+C:\Users\user\Documents\suli\szoftverf_2\_beadando\_utny-fromgit\utnyilvantarto-git\Utnyilvantarto\Utnyilvantarto\obj\Debug\Utnyilvantarto.pdb

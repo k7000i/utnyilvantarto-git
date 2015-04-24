@@ -104,6 +104,7 @@
             this.myButton3.Text = "KOCSIK";
             this.myButton3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.myButton3.UseVisualStyleBackColor = false;
+            this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
             // 
             // myButton2
             // 
